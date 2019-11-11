@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+	<head>
+		<!--META DATA-->
+			<title>John Williams - Digital :: Blackjack Simulator</title>
+			<meta charset="utf-8">
+			<meta name="title" content="John Williams - Digital :: Javascript Portfolio">
+			<meta name="description" content="John Williams Digital Portfolio - Technical & Strategic Services to Drive Successess.">
+			<meta name="subject" content="John Williams - Digital, Technical & Strategic Services to Drive Success">			
+			<meta name="author" content="John Williams Digital">
+			<meta name="language" content="English">
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="robots" content="nofollow" />
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+			
+			
+				h1 {
+					padding-top: 3%;
+					font-size: 90px;
+					color:#5E5E5E;
+					text-align: center;
+							font-family:'Archivo Black', sans-serif;
+					}
+
+				h2 {
+					padding-top: 3%;
+					padding-bottom: 3%;
+					font-size: 60px;
+					text-align: center;
+					font-family:'Archivo Black', sans-serif;
+					font-weight: bold;
+					}
+
+				p {
+					box-sizing: border-box;
+					text-align: center;
+					font-size: 30px;
+					font-family: 'Nunito', sans-serif;
+					color:#6E6E6E;
+					}	
+			
+			a {
+				text-decoration: none;
+				font-weight: bold;
+					}
+			
+			a:link {
+				color:black;
+				}
+
+
+			a:visited {
+				color:#808080;
+				}
+
+
+			a:hover {
+				color:#7B7B7B;
+				}
+
+
+			a:active {
+				color:#555555;
+				} 
+			
+			
+	body {
+		margin:0;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.row {
+		width:100%;
+		height:auto;
+		float:left;
+	}
+	
+	.content {
+		width:800px;
+		padding:0;
+		height:auto;
+		margin:auto;
+	}
+	
+	.grid-container {
+		width:400px;
+		height:400px;
+		float:left;
+		border:solid 1px #ccc;
+	}
+	
+	.grid-box {
+		width:80px;
+		height:80px;
+		float:left;
+	}
+	
+	.button-container {
+		width:358px;
+		height:auto;
+		padding:20px;
+		float:left;
+	}
+	
+	.button {
+		width:320px;
+		height:45px;
+		padding-top:15px;
+		float:left;
+		border:solid 1px #ccc;
+		margin:15px;
+		background-color:#fff;
+		color:#aaa;
+		text-align:center;
+		font-size:22px;
+		cursor:pointer;
+	}
+	
+	.button:hover {
+		background-color:#ccc;
+		color:#fff;
+	}
+	
+	input {
+		width:330px;
+		height:50px;
+		float:left;
+		margin:10px;
+		padding:5px 20px;
+		font-size:22px;
+	}
+	
+	.output-field {
+		width:758px;
+		height:auto;
+		border:solid 1px #ccc;
+		padding:20px;
+		font-size:22px;
+		margin:20px 0;
+		float:left;
+		color:#aaa;
+	}
+	
+</style>
+	</head>
+
+
+<body>
+	
+	
+	
+		<article id="top">
+
+				<h1>Blackjack Simulator</h1>
+
+				<h2> <a href="https://www.jwdigital.tech">John Williams Digital</a></h2>
+
+				<p>Based on <a href="https://en.wikipedia.org/wiki/Blackjack" target="_blank">the classic card game Blackjack</a> below is a basic javascript simulator where you can hold or draw, to see if you can beat the dealer on getting closest to the number 21 and win the game.</p>
+		
+		</article>
+	
+<div class="row">
+	<div class="content">
+
+        <div class="button-container">
+            <div id="button-1" class="button">
+            	Deal
+            </div>
+            <div id="button-2" class="button">
+            	Hold
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+	<div class="content">
+    	<div id="output" class="output-field">
+        	Your Hand vs. Dealer's Hand
+        </div>
+        
+    </div>
+</div>
+
+<!-- JavaScript files go here. -->
+
+	<script type="text/javascript" src="blackjack.js"></script>
+
+<!-- ------------------------- -->
+
+</body>
+</html>
